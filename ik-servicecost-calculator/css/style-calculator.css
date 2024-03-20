@@ -1,0 +1,58 @@
+.ik_servicecost_requrired {
+    color: #F02C21;
+}
+#ik_servicecost_savings_calculator {
+    margin: 0 auto;
+    display: table;
+}
+#ik_servicecost_savings_calculator .ik_servicecost_data_text {
+    margin-top: 15px;
+}
+#ik_servicecost_savings_calculator .ik_servicecost_data_text span {
+    font-size: 20px;
+}
+.ik_servicecost_fixeddata, .ik_servicecost_label {
+    border: 1px solid #F02C21;
+    display: table;
+    line-height: 1;
+    width: 100%;
+    max-width: 495px;
+    margin-top: 2px;
+    text-align: center;
+}
+.ik_servicecost_fixeddata {
+    padding: 2px 14px 15px;
+    display: table;
+    line-height: 1;
+    width: 100%;
+    max-width: 495px;
+    margin-top: 2px;
+    text-align: center;
+}
+.ik_servicecost_label {
+    padding: 0px 14px 10px;
+}
+.ik_servicecost_label input[type=number]{
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    width: 200px;
+    margin-top: 20px;
+}
+.ik_servicecost_data_value {
+    font-size: 25px;
+    margin-top: 20px;
+}
+.ik_servicecost_label input::-webkit-outer-spin-button,
+.ik_servicecost_label input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.ik_servicecost_label input[type=number] {
+  -moz-appearance: textfield;
+}
+.ik_servicecost_data_total{
+    font-size: 30px;
+    margin-top: 20px;
+    color: #F02C21;
+}
